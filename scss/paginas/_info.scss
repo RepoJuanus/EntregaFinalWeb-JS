@@ -1,0 +1,54 @@
+@import "../paletaColores";
+
+/* -------------- INFORMACION --------------- */
+
+.doble__card__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.card__der__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 45%;
+    margin: 1rem;
+    background-color: $blanco_hover;
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+        transition: all 0.3s;
+        &:hover{
+            transform: scale(125%);
+        }
+    }
+}
+
+.card__izq__info {
+    display: flex;
+    flex-direction: column;
+    background-color: $blanco_hover;
+    max-width: 45%;
+    margin: 1rem;
+
+    img {
+        max-height: 55%;
+        border-radius: 20px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1%;
+        a{
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

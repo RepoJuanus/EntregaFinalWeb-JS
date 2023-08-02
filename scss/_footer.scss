@@ -1,0 +1,45 @@
+@import "./paletaColores";
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch ;
+    justify-content: center;
+    background-color: $noche;
+    margin:auto;
+    .footer__ubicacion {
+        display: flex;
+        justify-content: center;
+        iframe{
+            width: 45%;
+        }
+        div{
+            color: $blanco;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 45%;
+        }
+        h6{
+            display: none;
+        }
+    }
+    .footer__redes{
+        padding: 0.5rem;
+        margin: .5rem 0;
+        ul{
+            background-color: $noche;
+            display: flex;
+            list-style: none;
+            justify-content:space-evenly ;
+        }
+        a{
+            text-decoration: none;
+            color: $blanco;
+            &:hover{
+                color: $blanco_hover;
+            }
+        }
+    }
+}

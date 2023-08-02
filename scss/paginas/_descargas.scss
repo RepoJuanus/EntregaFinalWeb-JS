@@ -1,0 +1,30 @@
+@import "../paletaColores";
+/* ------------- DESCARGA ---------------*/
+
+.form__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:$azul_hover;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 30rem;
+  margin: 1rem auto;
+  h2 {
+    text-align: center;
+    margin: 15px;
+  }
+  label {
+    width: 80%;
+    font-size: larger;
+  }
+  input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+
+

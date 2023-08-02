@@ -1,0 +1,52 @@
+@import "../paletaColores";
+/* ------ MAIN ------ */
+.cuerpo__ppal_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas: 
+    "texto_b    texto_b"
+    "video      texto"
+    "carrousel  carrousel"
+    ;
+    align-items: center;
+    justify-items: center ;
+    margin: auto;
+    
+    .texto_bienvenida{
+        font-family: 'Rubik', sans-serif;
+        font-size: 35px;
+        text-shadow: 2px 2px 15px $noche, 0 0 3em $noche_hover, 0 0 1em $celeste_hover;
+        color: $blanco_hover;
+        grid-area: texto_b;
+        padding-top: 1rem;
+        margin: 0.8rem;
+    }
+    .grid_video{
+        grid-area: video;
+        width: 95%;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px $noche_hover;
+        margin: 1rem;
+    }
+    .grid_texto{
+        font-size: larger;
+        grid-area: texto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        margin: auto;
+        a {
+            width: 100%;
+        }
+    }
+    .grid_carrousel{
+        grid-area: carrousel;
+        box-shadow: 0 2px 10px $noche_hover;
+        width: 70%;
+        margin: 2rem;
+    }   
+}

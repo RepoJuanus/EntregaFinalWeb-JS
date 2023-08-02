@@ -1,0 +1,21 @@
+@import "_paletaColores";
+
+.navbar_bg-color{
+    background-color: $azul
+}
+
+.navbar-brand{
+    transition: all 0.4s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.nav-link, .btn_buscar-color{
+    color: $noche;
+    transition: all 0.4s;
+    &:hover{
+        border-radius: 5px;
+        transform: scale(1.1);
+        background-color: $blanco_hover;
+    }
+}

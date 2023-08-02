@@ -1,0 +1,29 @@
+@import "../paletaColores";
+.btn_style_1{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1%;
+    background-color: $celeste;
+    color: $blanco ;
+    &:hover{
+        background-color: $celeste_hover;
+    }
+}
+
+.scale_hover{
+    border-radius: 5px;
+    transition: all 0.3s;
+    &:hover{transform: scale(108%);}
+}
+
+.new_cards{
+    margin: 0.2%;
+}
+
+.card_title_font{
+    font-size: xx-large ;
+}
+.card_font{
+    font-size: large ;
+}
