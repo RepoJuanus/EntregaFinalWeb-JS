@@ -86,6 +86,7 @@
             </div>
         </nav>
     </div>
+
     </header>
     <main>
     <section class="cuerpo__ppal_grid">
@@ -94,7 +95,7 @@
         </div>
         <iframe class="timeLapse3D grid_video" width="480" height="400" src="https://www.youtube.com/embed/Xbqw5RA39zA"
             title="TimeLapse  J3D 720" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         <div class="texto_ppal grid_texto">
             <h2 >Conocenos ...</h2>
             <p class="texto__info">
@@ -164,7 +165,19 @@
         </section>
     </section>
 </main>
-<footer>
+
+<div class="modal-contenedor">
+    <div class="modal-carrito">
+      <h3>Carrito</h3>
+      <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+      <div id="carrito-contenedor">
+
+      </div>
+      <p class="precioProducto">Precio total: $<span id="precio-total"></span></p>
+    </div>
+</div>
+
+  <footer>
     <section class="footer__redes">
             <ul class="footer__redes--lista">
                 <li>
@@ -208,7 +221,10 @@
     <!-- Bootstrap en la nube-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
     <!-- Bootstrap Local -->
+    <script src="./eventos.js"></script>
     <script src="./index.js"></script>
+    <script src="./stock.js"></script>
+    <script src="./app.js"></script>
     <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

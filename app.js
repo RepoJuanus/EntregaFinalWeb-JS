@@ -18,5 +18,3 @@ const mostrarProductos = () => {
             contenedor.appendChild(div);
         });
     };
-    
-    //mostrarProductos();
